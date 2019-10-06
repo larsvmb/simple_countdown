@@ -1,0 +1,19 @@
+name: Simple_Countdown
+version: ${project.version}
+main: org.countdown.main
+api-version: 1.13
+authors: [larsvmb]
+description: A simple yet powerful Simple Countdown for Spigot Servers
+commands:
+  start:
+    description: Starts the countdown
+    usage: /<command>
+    aliases: [go, run]
+  stop:
+    description: Stops the current countdown
+    usage: /<command>
+    aliases: [disable, halt]
+  again:
+    description: Restarts the running countdown
+    usage: /<command>
+    aliases: [redo]
